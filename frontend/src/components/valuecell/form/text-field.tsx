@@ -14,7 +14,7 @@ export const TextField: FC<TextFieldProps> = ({
   placeholder,
   className,
 }) => {
-  const field = useFieldContext<string | number>();
+  const field = useFieldContext<string>();
 
   return (
     <Field className={className}>
